@@ -209,14 +209,13 @@ body {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
-    width: 0;
+    right: 0;
+    width: 100%;
     height: 100%;
-    background:rgb(88, 211, 239);
-    z-index: 2;
-    transition: .5s;
+    background:rgb(56, 53, 92);
     animation: showRight 1.8s ease forwards;
-    animation-delay: 10.3s;
+    animation-delay: 10.2s;
+    z-index: 2;
 }
 
 .home-sci a {
@@ -234,6 +233,18 @@ body {
     justify-content: center;
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background:rgb(88, 211, 239);
+    z-index: -1;
     transition: .5s;
 }
 
