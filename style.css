@@ -285,7 +285,7 @@ body {
     justify-content: space-between;
     align-items: center;
     left: 16%;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .home-scinon {
@@ -296,7 +296,7 @@ body {
     justify-content: space-between;
     align-items: center;
     left: 16%;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .home-sci::before {
